@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CumpleMes</title>
+    <link href="https://fonts.googleapis.com/css2?family=Amifer&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assent/css/styles.css">
+    <link rel="icon" href="./assent/img/icono-duki.jfif" type="image/x-icon">
+  
+</head>
+<body>
+    <header>
+        <h1 class="letra titulo text-center">Feliz CumpleMes</h1>
+        <p class="date titulo1 text-center"><b> 11/07/2024 </b></p>
+    </header>
+    <main>
+        <div class="container">
+            <div class="card" style="background-image: url('./assent/img/imagen1.jpg');"></div>
+            <div class="card" style="background-image: url('./assent/img/imagen2.jpg');"></div>
+            <div class="card" style="background-image: url('./assent/img/imagen3.jpg');"></div>
+            <div class="card" style="background-image: url('./assent/img/imagen4.jpg');"></div>
+            <div class="card" style="background-image: url('./assent/img/imagen5.jpg');"></div>
+            <div class="card" style="background-image: url('./assent/img/imagen6.jpg');"></div>
+            <div class="card" style="background-image: url('./assent/img/imagen7.jpg');"></div>
+        </div>
+        <!-- Video centrado -->
+        <div class="container mt-5 video-carousel">
+            <h2 class="titulo letra text-center">Siempre juntos</h2>
+            <div id="videoCarousel" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="video-wrapper">
+                            <video id="video1" class="video-responsive" controls>
+                                <source src="./assent/videos/video1.MOV" type="video/mp4">
+                                Tu navegador no soporta el elemento de video.
+                            </video>
+                            <button class="play-button" onclick="playPause('video1')">&#9658;</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="./assent/js/script.js"></script>
+    <script>
+        // Función playPause para el
